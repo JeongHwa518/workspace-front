@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+ul li:nth-of-type(2n-1) {
+    border: 1px solid red;
+}
+
+ul li:last-child {
+    border: 1px solid blue;
+}
+
+ul li:nth-of-type(odd) {
+    border: 1px solid gold;
+}
+
+ul li:nth-child(even) {
+    border: 1px solid green;
+}
+
