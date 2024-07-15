@@ -10,4 +10,4 @@ title.onclick = () => {
     } else {                                    //clicked 스타일이 있으면
         title.classList.remove("clicked")       //clicked 스타일 삭제
     }
-}
+}    

@@ -1,4 +1,4 @@
-// 서브메뉴 링크 액션을 처리하는 함수
+//서브메뉴 링크 액션을 처리하는 함수
 function handleMenuAction(event) {
     event.preventDefault()
     alert(`클릭한 링크 : ${event.target.textContent}`)
@@ -19,4 +19,5 @@ window.addEventListener('click', function(event) {
             }
         }
     }
-})
+
+}, true)

@@ -21,3 +21,8 @@ h1 {
     background-color: yellow;
     color: blue;
 }
+
+.b-italic {
+    background-color: #8ddfff;
+    font-style: italic;
+}
